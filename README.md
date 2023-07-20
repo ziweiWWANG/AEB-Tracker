@@ -18,6 +18,3 @@ Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 ## Notes
 Should you have any questions or suggestions, please don't hesitate to get in touch with ziwei.wang1@anu.edu.au
 
-
-
-# Event-Blob-Tracking
