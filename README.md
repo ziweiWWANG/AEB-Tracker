@@ -1,16 +1,11 @@
 # Event Blob Tracking: An Asynchronous Real-Time Algorithm
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2208.01710">
-    <img src="figures/pipeline.png" alt="Smart Visual Beacons with Asynchronous Optical Communications using Event Cameras" width="1000"/>
+  <a href="https://www.youtube.com/watch?v=1W2DC7BI-uc">
+    <img src="figures/video_thumbnail.png" alt="Event Blob Tracking: An Asynchronous Real-Time Algorithm" width="500"/>
   </a>
 </p>
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2208.01710">
-    <img src="figures/system.png" alt="Smart Visual Beacons with Asynchronous Optical Communications using Event Cameras" width="500"/>
-  </a>
-</p>
 
 
 ## For academic use only
@@ -19,18 +14,6 @@ Event-based cameras have become increasingly popular for tracking fast-moving ob
 
 Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
-[[arXiv preprint]](https://arxiv.org/abs/2208.01710)
-
-## Citation
-If you use or discuss our algorithm or datasets, please cite our paper as follows:
-<pre>
-@InProceedings{wang22iros,
-  author        = {Ziwei Wang and Yonhon Ng and Jack Henderson and Robert Mahony},
-  title         = {Smart Visual Beacons with Asynchronous Optical Communications using Event Cameras},
-  booktitle     = {"International Conference on Intelligent Robots and Systems (IROS 2022)" },
-  year          = {2022}
-}
-</pre>
 
 ## Notes
 Should you have any questions or suggestions, please don't hesitate to get in touch with ziwei.wang1@anu.edu.au
