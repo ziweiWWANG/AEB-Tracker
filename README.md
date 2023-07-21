@@ -14,6 +14,22 @@ Event-based cameras have become increasingly popular for tracking fast-moving ob
 
 Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
+[[Preprint Paper](https://arxiv.org/abs/2307.10593)]
+
+## Citation
+If you use or discuss our event blob tracking method, please cite our paper as follows:
+<pre>
+
+@Article{Wang_2023_Event,
+	author        = {Wang, Ziwei and Molloy, Timothy and van Goor, Pieter and Mahony, Robert},
+  title         = {Event Blob Tracking: An Asynchronous Real-Time Algorithm},
+	journal       = arxiv,
+	year          = 2023,
+	month         = July,
+	url           = {https://arxiv.org/abs/2307.10593},
+	arxivid       = {2307.10593}
+}  
+</pre>
 
 ## Notes
 Should you have any questions or suggestions, please don't hesitate to get in touch with ziwei.wang1@anu.edu.au
