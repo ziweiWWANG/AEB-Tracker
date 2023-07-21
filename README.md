@@ -18,17 +18,18 @@ Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
 ## Citation
 If you use or discuss our event blob tracking method, please cite our paper as follows:
+
 <pre>
 
 @Article{Wang_2023_Event,
-	author        = {Wang, Ziwei and Molloy, Timothy and van Goor, Pieter and Mahony, Robert},
-  title         = {Event Blob Tracking: An Asynchronous Real-Time Algorithm},
-	journal       = arxiv,
-	year          = 2023,
-	month         = July,
-	url           = {https://arxiv.org/abs/2307.10593},
-	arxivid       = {2307.10593}
-}  
+    author    = {Wang, Ziwei and Molloy, Timothy and van Goor, Pieter and Mahony, Robert},
+    title     = {Event Blob Tracking: An Asynchronous Real-Time Algorithm},
+    journal   = arxiv,
+    year      = 2023,
+    month     = July,
+    url       = {https://arxiv.org/abs/2307.10593},
+    arxivid   = {2307.10593}
+}
 </pre>
 
 ## Notes
