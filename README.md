@@ -1,4 +1,4 @@
-# Event Blob Tracking: An Asynchronous Real-Time Algorithm
+# Asynchronous Blob Tracker for Event Cameras
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=1W2DC7BI-uc">
