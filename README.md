@@ -1,7 +1,7 @@
 # Asynchronous Blob Tracker for Event Cameras
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=1W2DC7BI-uc">
+  <a href="https://youtu.be/L_wJjhcToOU">
     <img src="figures/video_thumbnail.png" alt="Event Blob Tracking: An Asynchronous Real-Time Algorithm" width="500"/>
   </a>
 </p>
@@ -14,21 +14,21 @@ Event-based cameras have become increasingly popular for tracking fast-moving ob
 
 Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
-[[Preprint Paper](https://arxiv.org/abs/2307.10593)]
+[[PDF](https://arxiv.org/abs/2307.10593)] [[IEEE Early Access](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F10665915&data=05%7C02%7Cziwei.wang1%40anu.edu.au%7C2e08dda55bb843ef030408dcce0aa7ff%7Ce37d725cab5c46249ae5f0533e486437%7C0%7C0%7C638611792406135514%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=CPSoyUFhRltD8mFhVy4BSLGgRP4KWhWmAgY6miA1uio%3D&reserved=0)]
 
 ## Citation
 If you use or discuss our event blob tracking method, please cite our paper as follows:
 
 <pre>
 
-@Article{Wang_2023_Event,
-    author    = {Wang, Ziwei and Molloy, Timothy and van Goor, Pieter and Mahony, Robert},
-    title     = {Event Blob Tracking: An Asynchronous Real-Time Algorithm},
-    journal   = arxiv,
-    year      = 2023,
-    month     = July,
-    url       = {https://arxiv.org/abs/2307.10593},
-    arxivid   = {2307.10593}
+@Article{2024_Wang_AEB_Tracker_TRO,
+  author  = {Ziwei Wang and Timothy Molloy and Pieter {van Goor} and Robert Mahony},
+  journal = {Transactions on Robotics},
+  title   = {Asynchronous Blob Tracker for Event Cameras},
+  year    = {2024},
+  issn    = {1552-3098},
+  comment = {Conditionally accepted May 2024.  Accepted August 2024. Online ISSN: 1941-0468},
+  doi     = {10.1109/TRO.2024.3454410},
 }
 </pre>
 
