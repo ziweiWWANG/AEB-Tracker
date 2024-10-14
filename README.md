@@ -17,6 +17,11 @@ Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
 [[PDF](https://arxiv.org/abs/2307.10593)] [[IEEE Early Access](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F10665915&data=05%7C02%7Cziwei.wang1%40anu.edu.au%7C2e08dda55bb843ef030408dcce0aa7ff%7Ce37d725cab5c46249ae5f0533e486437%7C0%7C0%7C638611792406135514%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=CPSoyUFhRltD8mFhVy4BSLGgRP4KWhWmAgY6miA1uio%3D&reserved=0)]
 
+## Code and Data
+We are currently working on making the codebase cleaner and more accessible, which will take some time. 
+
+Please find the early release in [link](https://drive.google.com/drive/folders/1Z3G4i4RDG_SjCmTIxGdwXQaOa_mpX-il?usp=sharing) and follow the README file to run the code. 
+
 ## Citation
 If you use or discuss our event blob tracking method, please cite our paper as follows:
 
