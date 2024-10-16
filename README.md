@@ -15,7 +15,7 @@ The paper was accepted by the 2024 IEEE Transactions on Robotics (TRO).
 
 Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony
 
-[[PDF](https://arxiv.org/abs/2307.10593)] [[IEEE Early Access](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F10665915&data=05%7C02%7Cziwei.wang1%40anu.edu.au%7C2e08dda55bb843ef030408dcce0aa7ff%7Ce37d725cab5c46249ae5f0533e486437%7C0%7C0%7C638611792406135514%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=CPSoyUFhRltD8mFhVy4BSLGgRP4KWhWmAgY6miA1uio%3D&reserved=0)]
+[[PDF](https://arxiv.org/abs/2307.10593)] [[IEEE Xplore](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F10665915&data=05%7C02%7Cziwei.wang1%40anu.edu.au%7C2e08dda55bb843ef030408dcce0aa7ff%7Ce37d725cab5c46249ae5f0533e486437%7C0%7C0%7C638611792406135514%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=CPSoyUFhRltD8mFhVy4BSLGgRP4KWhWmAgY6miA1uio%3D&reserved=0)]
 
 ## Code and Data
 We are currently working on making the codebase cleaner and more accessible, which will take some time. 
@@ -29,11 +29,12 @@ If you use or discuss our event blob tracking method, please cite our paper as f
 
 @Article{2024_Wang_AEB_Tracker_TRO,
   author  = {Ziwei Wang and Timothy Molloy and Pieter {van Goor} and Robert Mahony},
-  journal = {Transactions on Robotics},
+  journal = {IEEE Transactions on Robotics},
   title   = {Asynchronous Blob Tracker for Event Cameras},
   year    = {2024},
+  volume  = {40},
+  pages   = {4750-4767},
   issn    = {1552-3098},
-  comment = {Conditionally accepted May 2024.  Accepted August 2024. Online ISSN: 1941-0468},
   doi     = {10.1109/TRO.2024.3454410},
 }
 </pre>
