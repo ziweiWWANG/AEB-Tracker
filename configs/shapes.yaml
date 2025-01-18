@@ -1,0 +1,55 @@
+input_folder_path: "../data/shapes/08/"
+input_data_name: "shapes" 
+ref_image_ts_path: ""
+process_ts_start: -1
+process_ts_end: -1
+event_num_start: 93901
+event_num_end: 7879601
+width: 241
+height: 181
+n_target: 6 # Default number of tracking target
+data_format: 1 # 0: ts,c,r,p; 1: c,r,p,ts
+ring_buffer_len: 10
+dist_threshold: 10
+publish_framerate: 40
+contrast_threshold : 0.1
+alpha: 50
+m : 2 # Number of measurements
+dt: 0.0001
+n_state: 10 # Number of filter state
+
+
+# Flags
+use_gyro_flag: 1
+save_video_flag: 1
+save_image_flag: 0
+save_track_flag: 0
+disp_covariance_flag: 0
+compute_TTC_flag: 0
+print_TTC_flag: 0
+select_target_flag: 0 # Select by click or track pre-defined target
+ref_image_ts_flag: 0
+
+
+# Kalman filter
+var_x: 30
+var_y: 30   
+var_vx: 800
+var_vy: 800
+var_lambda_1: 5
+var_lambda_2: 5
+var_theta: 0.5
+var_q: 2
+q_x: 500
+q_y: 500
+q_vx: 5000
+q_vy: 5000
+q_lambda_1: 0.01
+q_lambda_2: 0.01
+q_theta: 0.005
+q_q: 0.01
+position_x_init: [82, 55, 71, 126, 148, 133]
+position_y_init: [65, 82, 103, 118, 105, 68]
+lambda_init: 30
+
+
