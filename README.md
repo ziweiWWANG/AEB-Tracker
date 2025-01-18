@@ -66,6 +66,9 @@ Our asynchronous comb filter is designed to be built as a cmake project. Assumin
 ```
 
 ### Data
+[Click here to download the example dataset.](https://drive.google.com/file/d/1LE6F88P8_UvCMla8c1LcfkGykKmQOedn/view?usp=sharing)
+
+
 Unzip `data.zip` into `./data`
 
 ### Run  
@@ -76,7 +79,7 @@ Unzip `data.zip` into `./data`
 ```
 Choose the {config_file_name} from `car`, `spin-dot` or `shapes`. E.g., `./aeb-tracker -i car`
 
-### Config
+### Configures
 Note that most of the parameters do not need to be tuned, or they are not sensitive to different scenarios. For your own dataset, you can start with the configuration file of a similar dataset from the provided example data and adjust the parameters accordingly.
 You can modify the parameters in configure files in `./configs`.
 
@@ -85,7 +88,7 @@ You can modify the parameters in configure files in `./configs`.
 1. Kalman filter parameters. `var_` represents state covariances and `q_` for process noise. We initialize targets with zero initial linear and angular velocity, and the initial target size is set to a value of at least two times larger than the maximum expected blob size to make the initial transient of the filter more robust.
 See Section V.A. in the paper for more discussions.
 
-2. `dist_threshold`: distance threshold for data association. Tune this number based on the size of the target and the noisy background level. `dist_threshold = 10` is a good number for relatively small targets. Do not use extremely small `dist_threshold` for very fast-moving targets.
+2. `dist_threshold`: distance threshold (in pixels) for data association. Tune this number based on the size of the target and the noisy background level. `dist_threshold = 10` is a good number for relatively small targets. Do not use extremely small `dist_threshold` for very fast-moving targets.
 
 #### Key parameters for running and saving data:
 
@@ -93,7 +96,7 @@ See Section V.A. in the paper for more discussions.
 
 2. Only run parts of the datasets: set `process_ts_start` and `process_ts_end` to control timestamps; or `event_num_start` and `event_num_end` to control event IDs to run. Only use one option and set the other option to `-1`.
 
-3. `alpha`: decay rate of the event reconstruction. 
+3. `alpha`: decay rate of the event-based image reconstructions. Only for display.  
 
 4. `save_video_flag`, `save_image_flag`, `save_track_falg`: 1 for saving video/image/tracks. Saving files slows down the program. Turn off unnecessary saving options.
 
@@ -115,5 +118,5 @@ The dot spins from very slow to very fast.
 
 
 ## Notes
-Should you have any questions or suggestions, please don't hesitate to get in touch with ziwei.wang1@anu.edu.au
+Should you have any questions or suggestions, please don't hesitate to get in touch with ms.ziweiwang@gmail.com.
 
