@@ -56,7 +56,11 @@ Tested Eigen3 version = 3.4.
 Note: You may have to specify the path to your OpenCV/yaml-cpp/Eigen library in `CMakeLists.txt`.
 
 ### Build
-Our asynchronous comb filter is designed to be built as a cmake project. Assuming all prerequisites are installed and you are in the root folder of the repository, then you can follow these steps to build. Run in release mode: 
+Our asynchronous comb filter is designed to be built as a cmake project. Assuming all prerequisites are installed and you are in the root folder of the repository, then you can follow these steps to build. 
+
+***Run in release mode to track fast!***
+
+
 
 ```
     mkdir build
