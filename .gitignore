@@ -364,6 +364,7 @@ FodyWeavers.xsd
 
 
 build/*
+data/*
 !build/build.xml
 
 *.avi
