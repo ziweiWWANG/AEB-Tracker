@@ -1,0 +1,10 @@
+AEB-Tracker
+Copyright 2024 Ziwei Wang and contributors
+
+This software implements the method described in:
+
+Ziwei Wang, Timothy Molloy, Pieter van Goor, and Robert Mahony,
+"Asynchronous Blob Tracker for Event Cameras,"
+IEEE Transactions on Robotics, vol. 40, pp. 4750-4767, 2024.
+https://doi.org/10.1109/TRO.2024.3454410
+

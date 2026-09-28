@@ -7,7 +7,6 @@
 </p>
 
 
-## For academic use only
 Event-based cameras are popular for tracking fast-moving objects due to their high temporal resolution, low latency, and high dynamic range. In this paper, we propose a novel algorithm for tracking event blobs using raw events asynchronously in real time. We introduce the concept of an event blob as a spatio-temporal likelihood of event occurrence where the conditional spatial likelihood is blob-like. Many real-world objects such as car headlights or any quickly moving foreground objects generate event blob data. The proposed algorithm uses a nearest neighbour classifier with a dynamic threshold criteria for data association coupled with an extended Kalman filter to track the event blob state. Our algorithm achieves highly accurate blob tracking, velocity estimation, and shape estimation even under challenging lighting conditions and high-speed motions (> 11000 pixels/s). The microsecond time resolution achieved means that the filter output can be used to derive secondary information such as time-to-contact or range estimation, that will enable applications to real-world problems such as collision avoidance in autonomous driving.
 
 The paper was accepted by the 2024 IEEE Transactions on Robotics (TRO). 
@@ -119,6 +118,16 @@ Run `./aeb-tracker -i shapes`: IMU data will be loaded from file `./data/shapes/
 Run `./aeb-tracker -i spin-dot`: Click target on screen to track. Default target `n_target = 1`, so you don’t need to press the Enter key.
 The dot spins from very slow to very fast.
 
+
+## License and commercial use
+
+This project is licensed under the [Apache License 2.0](LICENSE.txt) and may be used for both research and commercial applications, subject to the terms of the license.
+
+We welcome real-world and commercial use of AEB-Tracker and strongly encourage commercial users to contact us before deployment. Prior permission is not required under the Apache License 2.0, but hearing from users helps us understand the impact and translation of the research and may create opportunities for technical collaboration, validation, support, and joint development.
+
+For commercial use or collaboration, please contact [ms.ziweiwang@gmail.com](mailto:ms.ziweiwang@gmail.com).
+
+If you use this software or the associated method in academic work, please cite the paper in the [Citation](#citation) section.
 
 
 ## Notes

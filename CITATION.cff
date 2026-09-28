@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated method, please cite the paper below."
+title: "AEB-Tracker"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Ziwei
+  - family-names: Molloy
+    given-names: Timothy
+  - family-names: van Goor
+    given-names: Pieter
+  - family-names: Mahony
+    given-names: Robert
+repository-code: "https://github.com/ziweiWWANG/AEB-Tracker"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Asynchronous Blob Tracker for Event Cameras"
+  authors:
+    - family-names: Wang
+      given-names: Ziwei
+    - family-names: Molloy
+      given-names: Timothy
+    - family-names: van Goor
+      given-names: Pieter
+    - family-names: Mahony
+      given-names: Robert
+  journal: "IEEE Transactions on Robotics"
+  year: 2024
+  volume: 40
+  start: 4750
+  end: 4767
+  doi: "10.1109/TRO.2024.3454410"
