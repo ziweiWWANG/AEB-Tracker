@@ -125,7 +125,7 @@ This project is licensed under the [Apache License 2.0](LICENSE.txt) and may be 
 
 We welcome real-world and commercial use of AEB-Tracker and strongly encourage commercial users to contact us before deployment. Prior permission is not required under the Apache License 2.0, but hearing from users helps us understand the impact and translation of the research and may create opportunities for technical collaboration, validation, support, and joint development.
 
-For commercial use or collaboration, please contact [ms.ziweiwang@gmail.com](mailto:ms.ziweiwang@gmail.com).
+For commercial use or collaboration, please contact [ms.ziweiwang@gmail.com](mailto:ms.ziweiwang@gmail.com) and [robert.mahony@anu.edu.au](mailto:robert.mahony@anu.edu.au).
 
 If you use this software or the associated method in academic work, please cite the paper in the [Citation](#citation) section.
 
